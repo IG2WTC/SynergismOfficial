@@ -1198,7 +1198,7 @@ export const calculateCubeMultiplier = (score = -1) => {
         // Global Multiplier
         calculateAllCubeMultiplier().mult,
         // Season Pass 1
-        1 + 100 * player.shopUpgrades.seasonPass / 100,
+        1 + 50 * player.shopUpgrades.seasonPass / 100,
         // Researches (Excl 8x25)
         (1 + player.researches[119] / 400) * // 5x19
         (1 + player.researches[120] / 400) * // 5x20
